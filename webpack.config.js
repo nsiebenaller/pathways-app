@@ -74,7 +74,9 @@ module.exports = {
     },
     resolve: {
         extensions: ["*", ".ts", ".tsx", ".js", ".jsx", ".json", ".less"],
-        alias: {},
+        alias: {
+            client: path.resolve(__dirname, "src/client"),
+        },
     },
     devServer: {
         port: 3001,

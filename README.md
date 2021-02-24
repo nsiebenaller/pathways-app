@@ -15,6 +15,9 @@ cd react-ts-boilerplate
 # Install
 npm install
 
+# Get Denon
+deno install -qAf --unstable https://deno.land/x/denon/denon.ts
+
 # Start development
 npm run dev
 ```
